@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Windows 7 Simulator</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="boot">
+
+<div class="logo">
+
+Windows 7
+
+</div>
+
+<div class="loading">
+
+<div class="bar"></div>
+
+</div>
+
+</div>
+
+<div id="login" class="hidden">
+
+<div class="loginBox">
+
+<img src="assets/icons/user.png">
+
+<h2>User</h2>
+
+<button id="loginButton">
+
+Log In
+
+</button>
+
+</div>
+
+</div>
+
+<div id="desktop" class="hidden">
+
+<div id="desktopIcons"></div>
+
+<div id="windows"></div>
+
+<div id="taskbar">
+
+<button id="startButton">
+
+Start
+
+</button>
+
+<div id="taskButtons"></div>
+
+<div id="tray">
+
+<div id="clock"></div>
+
+</div>
+
+</div>
+
+<div id="startMenu" class="hidden">
+
+<div class="left">
+
+<input placeholder="Search">
+
+<div id="programList"></div>
+
+</div>
+
+<div class="right">
+
+<div>Documents</div>
+
+<div>Pictures</div>
+
+<div>Computer</div>
+
+<div>Control Panel</div>
+
+<div>Games</div>
+
+<div>Shutdown</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="js/boot.js"></script>
+
+<script src="js/desktop.js"></script>
+
+<script src="js/taskbar.js"></script>
+
+<script src="js/startmenu.js"></script>
+
+<script src="js/windowmanager.js"></script>
+
+</body>
+</html>
